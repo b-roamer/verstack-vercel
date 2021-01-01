@@ -7,7 +7,7 @@
 @font-face {
     font-family: "Neue Machina Bold";
     src: local("Neue Machina Bold"),
-     url(~assets/fonts/NeueMachina-Ultrabold.otf) format("truetype");
+     url(~assets/fonts/NeueMachina-Bold.ttf) format("truetype");
 }
 
 @font-face {
@@ -28,6 +28,12 @@
      url(~assets/fonts/MonumentExtended-Ultrabold.otf) format("truetype");
 }
 
+@font-face {
+    font-family: "Proxima Nova";
+    src: local("Proxima Nova"),
+    url(~assets/fonts/ProximaNova-Black.ttf) format("truetype");
+}
+
 html {
     font-family: "Neue Machina";
 }
@@ -46,4 +52,12 @@ html {
 
 .monex-bold {
     font-family: "Monument Extended Bold";
+}
+
+.proxnova {
+    font-family: "Proxima Nova";
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 5px rgba(180, 180, 180, 0.15);    
 }
