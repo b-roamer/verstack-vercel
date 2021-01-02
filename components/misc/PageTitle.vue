@@ -1,5 +1,5 @@
 <template>
-  <section class="flex place-content-between pr-48 pl-48 pt-24">
+  <section class="flex place-content-between">
     <div>
       <h2 class="neue-bold text-5xl mb-5">
         {{ title }}
