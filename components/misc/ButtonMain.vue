@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button class="flex justify-between border-2 border-purple hover:bg-purple text-purple hover:text-white shadow-button transition duration-300 pl-3 pr-3 pt-1 pb-1 w-52">
+    <button class="flex justify-between border-2 border-purple hover:bg-purple text-purple hover:text-white shadow-button transition duration-300 pl-3 pr-3 pt-1 pb-1 w-52 neue-light">
       {{ content }}
       <span class="inline-block align-middle">
         <svg

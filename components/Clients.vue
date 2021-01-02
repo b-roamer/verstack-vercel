@@ -1,6 +1,6 @@
 <template>
   <div class="h-screen">
-    <div class="-m-44">
+    <div class="-ml-44 -mr-44">
       <swiper
         class="swiper cursor-move"
         :options="swiperOption"
