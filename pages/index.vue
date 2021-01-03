@@ -4,21 +4,24 @@
     <Greeting />
     <Clients />
     <BestCases />
+    <BlogPreview />
   </div>
 </template>
 
 <script>
-import TopNav from '../components/TopNav'
-import Greeting from '../components/Greeting.vue'
-import Clients from '../components/Clients.vue'
-import BestCases from '../components/BestCases'
+import TopNav from '../components/landing/TopNav'
+import Greeting from '../components/landing/Greeting.vue'
+import Clients from '../components/landing/Clients.vue'
+import BestCases from '../components/landing/BestCases'
+import BlogPreview from '../components/landing/BlogPreview'
 
 export default {
   components: {
     TopNav,
     Greeting,
     Clients,
-    BestCases
+    BestCases,
+    BlogPreview
   }
 }
 </script>

@@ -16,8 +16,8 @@
 </template>
 
 <script>
-import PageTitle from './misc/PageTitle'
-import BestCase from './misc/BestCase'
+import PageTitle from '../elements/PageTitle'
+import BestCase from '../elements/BestCase'
 export default {
   components: {
     PageTitle,

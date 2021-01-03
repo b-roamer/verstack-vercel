@@ -36,8 +36,8 @@
 <script>
 import { Swiper, SwiperSlide, directive } from 'vue-awesome-swiper'
 import 'swiper/css/swiper.css'
-import InfoCard from './misc/InfoCard'
-import ClientsLogos from './misc/ClientsLogos'
+import InfoCard from '../elements/InfoCard'
+import ClientsLogos from '../elements/ClientsLogos'
 
 export default {
   components: {
