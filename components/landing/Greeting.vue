@@ -1,20 +1,22 @@
 <template>
-  <div class="h-screen relative">
-    <div class="absolute bottom-64">
-      <h1 class="neue-bold text-6xl mb-5">
+  <div id="greeting" class="h-screen relative">
+    <div class="absolute bottom-48 lg:bottom-64">
+      <h1 class="neue-bold text-4xl lg:text-6xl mb-5">
         Digital агентство
-        <br>
+        <br />
         неполного цикла
       </h1>
-      <p class="neue-light mb-5 text-lg">
+      <p class="neue-light mb-5 text-base lg:text-lg">
         Больше, чем просто агентство
-        <br>
+        <br />
         Творчейский подход и технологии
       </p>
       <a
-        class="neue-bold underline text-lg transition duration-300 hover:text-purple hover:no-underline"
+        class="neue-bold underline text-base lg:text-lg transition duration-300 hover:text-purple hover:no-underline"
         href="#"
-      >Посмотреть работы</a>
+      >
+        Посмотреть работы
+      </a>
     </div>
   </div>
 </template>

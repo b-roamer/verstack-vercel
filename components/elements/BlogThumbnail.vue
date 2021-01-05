@@ -1,6 +1,6 @@
 <template>
   <article
-    :style="{ backgroundImage: 'url(' + imageURL + ')' }"
+    :style="{ backgroundImage: 'url(' + imageUrl + ')' }"
     class="relative w-full h-full text-white p-5 hover:bg-black hover:bg-opacity-20 transition duration-300"
   >
     <a
@@ -45,7 +45,7 @@ export default {
   },
   computed: {
     // eslint-disable-next-line space-before-function-paren
-    imageURL() {
+    imageUrl() {
       return require(`../../assets/img/${this.image}.png`)
     }
   }

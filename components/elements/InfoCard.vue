@@ -1,17 +1,25 @@
 <template>
   <div class="relative text-left w-full">
-    <div class="flex bg-gray-100 min-w-full w-full h-full place-content-around py-24">
-      <div class="flex">
-        <p class="text-3xl neue-bold w-3/5 pl-5 place-self-center">
+    <div
+      class="lg:flex bg-gray-100 min-w-full w-full h-full place-content-around py-6 lg:py-24"
+    >
+      <div class="lg:flex">
+        <p
+          class="w-full text-xl lg:text-3xl neue-bold lg:w-3/5 pl-5 place-self-center"
+        >
           {{ title }}
         </p>
       </div>
-      <div class="flex justify-center w-3/5 place-self-center">
+      <div
+        class="w-full pl-5 pr-5 text-sm lg:text-base lg:flex justify-center lg:w-3/5 place-self-center lg:pr-5"
+      >
         <article>{{ content }}</article>
       </div>
     </div>
 
-    <div class="absolute bg-black text-white w-1/2 -right-12 -bottom-20 py-12 px-5">
+    <div
+      class="text-sm -bottom-28 right-5 lg:text-base w-2/3 lg:block absolute bg-black text-white lg:w-1/2 lg:-right-12 lg:-bottom-20 lg:py-12 px-5 py-6"
+    >
       {{ secondary }}
     </div>
   </div>

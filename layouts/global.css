@@ -35,7 +35,7 @@
 }
 
 html {
-    font-family: "Neue Machina";
+    font-family: "Neue Machina" !important;
 }
 
 .neue-bold {

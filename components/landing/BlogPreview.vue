@@ -1,5 +1,8 @@
 <template>
-  <div class="h-screen pt-20">
+  <div
+    id="blogPreview"
+    class="h-screen pt-20"
+  >
     <PageTitle
       title="Пишем и рассказываем"
       description="Делимся своими знаниями и наработанным опытом..."

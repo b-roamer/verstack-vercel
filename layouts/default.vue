@@ -1,5 +1,5 @@
 <template>
-  <div class="pr-48 pl-48">
+  <div class="overflow-x-hidden pr-5 pl-5 lg:pr-48 lg:pl-48">
     <Nuxt />
   </div>
 </template>

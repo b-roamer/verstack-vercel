@@ -1,5 +1,8 @@
 <template>
-  <div class="h-screen bg-offwhite w-screen -ml-48 pr-48 pl-48 pt-20">
+  <div
+    id="bestCases"
+    class="h-screen bg-offwhite w-screen -ml-48 pr-48 pl-48 pt-20"
+  >
     <PageTitle
       title="Избранные работы"
       description="Мы делаем свою работу настолько офигенно, что у нас нет конурентов"
