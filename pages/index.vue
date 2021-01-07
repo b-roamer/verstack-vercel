@@ -5,15 +5,17 @@
     <Clients />
     <BestCases />
     <BlogPreview />
+    <About />
   </div>
 </template>
 
 <script>
 import TopNav from '../components/landing/TopNav'
-import Greeting from '../components/landing/Greeting.vue'
-import Clients from '../components/landing/Clients.vue'
+import Greeting from '../components/landing/Greeting'
+import Clients from '../components/landing/Clients'
 import BestCases from '../components/landing/BestCases'
 import BlogPreview from '../components/landing/BlogPreview'
+import About from '../components/landing/About'
 
 export default {
   components: {
@@ -21,7 +23,8 @@ export default {
     Greeting,
     Clients,
     BestCases,
-    BlogPreview
+    BlogPreview,
+    About
   }
 }
 </script>
