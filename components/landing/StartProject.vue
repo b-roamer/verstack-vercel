@@ -5,7 +5,7 @@
     <div>
       <img src="~/assets/img/start1.png" alt="about" />
     </div>
-    <article class="mt-10 lg:mt-0 lg:w-1/2">
+    <article class="mt-10 lg:mt-0 lg:w-2/3">
       <nuxt-link to="/" class="text-3xl lg:text-7xl mb-5 hover:underline">
         Начать проект
         <img class="w-5 lg:w-10 inline-block" src="~/assets/img/next.svg" />
