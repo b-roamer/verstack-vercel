@@ -14,7 +14,7 @@
         />
       </svg>
     </div>
-    <div
+    <nav
       :class="{ hidden: !isToggled }"
       class="block text-right space-y-3 lg:space-y-0 lg:space-x-20 lg:block"
     >
@@ -38,7 +38,7 @@
           />
         </svg>
       </a>
-    </div>
+    </nav>
   </div>
 </template>
 
