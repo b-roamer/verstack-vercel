@@ -3,7 +3,7 @@
     <div
       class="lg:flex bg-gray-100 min-w-full w-full h-full place-content-around py-6 lg:py-24"
     >
-      <div class="lg:flex">
+      <div class="mb-2 lg:mb-0 lg:flex">
         <p
           class="w-full text-xl lg:text-3xl neue-bold lg:w-3/5 pl-5 place-self-center"
         >

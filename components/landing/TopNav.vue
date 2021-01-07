@@ -18,11 +18,11 @@
       :class="{ hidden: !isToggled }"
       class="block text-right space-y-3 lg:space-y-0 lg:space-x-20 lg:block"
     >
-      <a class="block lg:inline-block" href="#">Работы</a>
-      <a class="block lg:inline-block" href="#">Блог</a>
-      <a class="block lg:inline-block" href="#">Процесс</a>
-      <a class="block lg:inline-block" href="#">Связаться</a>
-      <a class="block lg:inline-block" href="">
+      <a class="block lg:inline-block" href="#bestCases">Работы</a>
+      <a class="block lg:inline-block" href="#blogPreview">Блог</a>
+      <a class="block lg:inline-block" href="#about">Процесс</a>
+      <a class="block lg:inline-block" href="#footer">Связаться</a>
+      <a class="block lg:inline-block" href="#">
         Меню
         <svg
           xmlns="http://www.w3.org/2000/svg"

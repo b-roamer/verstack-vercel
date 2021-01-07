@@ -1,12 +1,9 @@
 <template>
-  <div class="relative">
-    <p
-      class="proxnova text-white text-super p-0 m-0 -ml-3 text-shadow leading-none"
-    >
-      <!-- todo: add animation -->
-      КЛИЕНТЫ
-    </p>
-    <div class="absolute top-2/4 lg:top-2/4 flex place-content-around w-full">
+  <div
+    class="relative proxnova text-white text-super p-0 m-0 -ml-3 text-shadow leading-none"
+  >
+    КЛИЕНТЫ
+    <div class="absolute bottom-1/3 h-1/2 flex place-content-around w-full">
       <img class="object-contain w-1/12" src="~/assets/img/future.png" />
       <img class="object-contain w-1/12" src="~/assets/img/apple.png" />
       <img class="object-contain w-2/12" src="~/assets/img/binance.png" />

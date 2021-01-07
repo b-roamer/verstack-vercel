@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen flex flex-col place-content-between">
+  <div class="h-screen min-h-500 grid grid-cols-1">
     <div class="-ml-5 -mr-5 lg:block lg:-ml-44 lg:-mr-44">
       <swiper class="swiper h-96" :options="swiperOption">
         <swiper-slide>
@@ -15,19 +15,15 @@
         <swiper-slide>
           <InfoCard />
         </swiper-slide>
-        <div
-          slot="button-prev"
-          class="hidden lg:block swiper-button-prev animate-pulse"
-        />
-        <div
-          slot="button-next"
-          class="hidden lg:block swiper-button-next animate-pulse"
-        />
+        <div slot="button-prev" class="hidden lg:block swiper-button-prev" />
+        <div slot="button-next" class="hidden lg:block swiper-button-next" />
         <div slot="pagination" class="block lg:hidden swiper-pagination" />
       </swiper>
     </div>
 
-    <ClientsLogos />
+    <div>
+      <ClientsLogos />
+    </div>
   </div>
 </template>
 
@@ -61,6 +57,10 @@ export default {
         pagination: {
           el: '.swiper-pagination',
           dynamicBullets: true
+        },
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false
         }
       }
     }

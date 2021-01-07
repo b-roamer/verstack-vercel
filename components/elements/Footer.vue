@@ -1,6 +1,7 @@
 <template>
   <div
-    class="lg:grid px-5 py-5 lg:px-10 lg:py-0 grid-cols-4 place-content-around text-white lg:h-72 bg-black -mr-5 lg:-mr-48"
+    id="footer"
+    class="ml-10 lg:grid px-10 py-5 lg:px-10 lg:py-0 grid-cols-4 place-content-around text-white lg:h-72 bg-black -mr-5 lg:-mr-48"
   >
     <h2 class="text-xl lg:text-3xl neue-light my-auto mx-auto">
       <span class="neue-bold">Верстак</span> - это<br />эмоции, техологии<br />и

@@ -6,6 +6,7 @@
     <BestCases />
     <BlogPreview />
     <About />
+    <StartProject />
     <Footer />
   </div>
 </template>
@@ -17,6 +18,7 @@ import Clients from '../components/landing/Clients'
 import BestCases from '../components/landing/BestCases'
 import BlogPreview from '../components/landing/BlogPreview'
 import About from '../components/landing/About'
+import StartProject from '../components/landing/StartProject'
 import Footer from '../components/elements/Footer'
 
 export default {
@@ -27,6 +29,7 @@ export default {
     BestCases,
     BlogPreview,
     About,
+    StartProject,
     Footer
   }
 }
