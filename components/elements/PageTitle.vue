@@ -1,10 +1,10 @@
 <template>
-  <section class="flex place-content-between">
-    <div>
-      <h2 class="neue-bold text-5xl mb-5">
+  <section class="lg:flex place-content-between">
+    <div class="mb-2">
+      <h2 class="neue-bold w-1/2 text-3xl lg:text-5xl mb-2 lg:mb-5">
         {{ title }}
       </h2>
-      <article class="neue-light w-96">
+      <article class="neue-light w-full lg:w-96">
         {{ description }}
       </article>
     </div>
